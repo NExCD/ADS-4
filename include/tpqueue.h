@@ -2,9 +2,9 @@
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 #include <cassert>
-
 template<typename T>
 class TPQueue {
+ 
  private:
  T* arr;
 int size;
