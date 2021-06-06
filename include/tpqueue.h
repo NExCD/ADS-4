@@ -4,9 +4,8 @@
 #include <cassert>
 template<typename T>
 class TPQueue {
- 
  private:
- T* arr;
+T* arr;
 int size;
 int begin, end;
 int count;
@@ -66,5 +65,4 @@ struct SYM {
   char ch;
   int  prior;
 };
-
 #endif // INCLUDE_TPQUEUE_H_
